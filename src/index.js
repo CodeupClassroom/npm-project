@@ -8,6 +8,10 @@ import configuration from "./data";
 // instead and call m.add(1, 2)
 import /* into */ math from "./math";
 
+const msg = require("./say-hello");
+
+console.log(msg());
+
 console.log(math.add(10, 98));
 console.log(math.subtract(1, 98));
 console.log(math.multiply(2, 9));
