@@ -4,4 +4,6 @@ const data = {
     arnie: 'Get to da choppa!',
 };
 
-module.exports = data;
+// npm version
+// module.exports = data;
+export default data;
